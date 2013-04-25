@@ -3,7 +3,7 @@ import urllib2, urllib
 import json
 import csv
 
-# Open text file with links
+# Open text file with links and make list of URLs
 links = [line.strip() for line in open('bitly.txt')]
 
 # Create CSV for results and write headers
